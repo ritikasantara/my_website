@@ -1,34 +1,4 @@
 
-.panel-header{
-
-
-	width:100%;
-	height:180px;
-	background-color: #ADD8E6;
-
-}
-
-.panel-middle{
-
-
-	width:390px;
-	height:390px;
-	background-color: #ddd;
-	border-radius: 100%;
-	position: ;
-    top:20%;
-	left:36%;
-
-}
-
-.panel-foot{
-
-
-	width:100%;
-	height:180px;
-	background-color: #ADD8E6;
-    margin-top: 220px;
-}
 
 #site_name{
 
@@ -45,5 +15,53 @@
 
     font-size: 20px;
     font-family: 'Fjalla One', sans-serif;
-	color: #7F2938;
+	color: #f6f6f6;
+}
+
+
+ hr{
+
+
+	 width: 100%;
+	 height:3px;
+	 background-color: teal;
+
+ }
+
+
+ #background_image{
+
+	  width: 100%;
+	  height: 600px;
+
+	  background-blend-mode: darken;
+
+ }
+    
+p{
+
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	color:maroon;
+	position: relative;
+	top:30px;
+	text-align: center;
+
+
+}
+
+#text_background{
+
+    position: absolute;
+    left:0;
+    right:0;
+    top:-110px;
+    bottom: 0;
+    margin:auto;
+	width:200px;
+	height:200px;
+	border-radius: 40%;
+	background-color:white;
+	opacity: 0.5;
+	
 }
