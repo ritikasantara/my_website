@@ -4,8 +4,8 @@
 
 
    font-family: 'Dancing Script', cursive;
-   font-size: 40px;
-   color: #EA5972;
+   font-size: 45px;
+   color: pink;
    opacity:0.5;
 
 }
@@ -34,7 +34,8 @@
 	  width: 100%;
 	  height: 600px;
 
-	  background-blend-mode: darken;
+	  filter:grayscale(80%);
+	  mix-blend-mode: screen;
 
  }
     
@@ -64,4 +65,52 @@ p{
 	background-color:white;
 	opacity: 0.5;
 	
+}
+
+#facebook{
+
+position:absolute;
+font-size: 45px;
+text-align: center;
+margin-left: 40%;
+top:70%;
+color:grey;
+
+
+}
+
+#twitter{
+
+position:absolute;
+font-size: 45px;
+text-align: center;
+margin-left: 55%;
+top:70%;
+color:grey;
+
+
+}
+
+#github{
+
+position:absolute;
+font-size: 45px;
+text-align: center;
+margin-left: 45%;
+top:70%;
+color:grey;
+
+
+}
+
+#linkedin{
+
+position:absolute;
+font-size: 45px;
+text-align: center;
+margin-left: 50%;
+top:70%;
+color:grey;
+
+
 }
