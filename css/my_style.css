@@ -130,6 +130,7 @@ opacity: 0.7;
    height: auto;
    /*-webkit-background-blend-mode: screen;*/
    opacity: 0.5;
+   overflow-y: auto;
 
 }
 
@@ -137,12 +138,12 @@ opacity: 0.7;
 .container{
 
 position:absolute;
-top:20%;
+top:10%;
 left:0;
 right:0;
 bottom:0;
-margin:0 0 6px;
-
+overflow-y: auto;
+flex-direction:row;
 display:flex;
 align-items: center;
 justify-content: flex-end;
@@ -154,8 +155,8 @@ justify-content: flex-end;
   
 
 
-width:230px;
-height:230px;
+width:240px;
+height:250px;
 
 }
 
@@ -166,8 +167,16 @@ img{
 
 figure{
 
-        
+
+margin-left: 2%;
+ margin-right: 5.5%;       
  cursor:pointer;
 
   
+}
+
+.img-responsive{
+
+
+	margin:0 auto;
 }
