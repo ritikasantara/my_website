@@ -135,32 +135,30 @@ opacity: 0.7;
 }
 
 
-.container{
+/*.container{
 
 position:absolute;
-top:10%;
-left:0;
-right:0;
-bottom:0;
-overflow-y: auto;
+top:2rem;
+left:2rem;
+right:2rem;
+bottom:2rem;
+
 flex-direction:row;
 display:flex;
 align-items: center;
 justify-content: flex-end;
+width:100%;
+padding:2rem 0;
 }
 
 
-.img-rounded{
-
-  
 
 
-width:240px;
-height:250px;
+figure img{
 
-}
+width:100%;
 
-img{
+
 
 
 }
@@ -168,15 +166,135 @@ img{
 figure{
 
 
-margin-left: 2%;
- margin-right: 5.5%;       
+  
+float: left;
+margin-bottom: 1rem;
+position: relative;   
  cursor:pointer;
+ font-size: 15px;
+ font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+ text-align: center;
 
   
 }
 
-.img-responsive{
+
+figure a{
 
 
-	margin:0 auto;
+height: 100%;
+margin-left: 2rem;
+
+
+  
 }
+
+
+body,html,img,div,a,header,footer,nav,section,figure,figcaption{
+
+
+margin:0;
+padding:0;
+
+}
+
+footer{
+
+background-color: #7f9276;
+opacity: 0.7;
+text-align: center;
+padding: 2em 0;
+color: ghostwhite;
+}
+
+
+main{
+
+
+	width: 80%;
+	margin: 2rem auto;
+}
+*/
+body{
+
+	background-image: url(../images/wallhaven-78409.jpg);
+}
+
+body,html,img,div,a,header,footer,nav,section,figure,figcaption{
+
+
+margin:0;
+padding:0;
+
+}
+
+footer,header{
+
+background-color: #7f9276;
+opacity: 0.7;
+text-align: center;
+padding: 3em 0;
+color: ghostwhite;
+
+}
+
+main{
+
+
+	
+	margin: 4rem auto;
+}
+
+section{
+
+margin: 4% 4% auto;
+box-shadow: 0 0 10px 2px grey;
+background-color: white;
+overflow: hidden;
+vertical-align: middle;
+
+
+
+}
+
+
+figure{
+
+	width: calc(100% / 4);
+	float: left;
+	margin: 2% auto;
+	
+	
+}
+
+figure a{
+
+flex-direction:row;
+display:flex;
+align-items: center;
+justify-content: center;
+   
+
+
+}
+
+figure img{
+
+	box-shadow: 0 0 10px 2px #ccc;
+	overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
