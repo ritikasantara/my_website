@@ -251,7 +251,7 @@ margin: 4% 4% auto;
 box-shadow: 0 0 10px 2px grey;
 background-color: white;
 overflow: hidden;
-vertical-align: middle;
+
 
 
 
@@ -286,9 +286,64 @@ figure img{
 }
 
 
+@media only screen and (max-width: 1024px)
+{
+
+	figure{
+
+
+		font-size: 14px;
+
+        width: calc(100% / 3);
+
+	}
+}
+
+
+@media only screen and (max-width: 840px)
+{
+
+	figure{
+
+
+		font-size: 12px;
+
+      
+
+	}
+}
 
 
 
+
+@media only screen and (max-width: 640px)
+{
+
+	figure{
+
+
+		font-size: 11px;
+
+        width: calc(100% / 2);
+
+	}
+}
+
+
+@media only screen and (max-width: 400px)
+{
+
+	figure{
+
+
+		font-size: 10.5px;
+        margin:auto auto;
+        float: none;
+        display: block;
+        
+
+	}
+}
 
 
 
