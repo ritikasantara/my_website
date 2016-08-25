@@ -140,88 +140,6 @@ opacity: 0.7;
 
 
 
-
-
-/*.container{
-
-position:absolute;
-top:2rem;
-left:2rem;
-right:2rem;
-bottom:2rem;
-
-flex-direction:row;
-display:flex;
-align-items: center;
-justify-content: flex-end;
-width:100%;
-padding:2rem 0;
-}
-
-
-
-
-figure img{
-
-width:100%;
-
-
-
-
-}
-
-figure{
-
-
-  
-float: left;
-margin-bottom: 1rem;
-position: relative;   
- cursor:pointer;
- font-size: 15px;
- font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
- text-align: center;
-
-  
-}
-
-
-figure a{
-
-
-height: 100%;
-margin-left: 2rem;
-
-
-  
-}
-
-
-body,html,img,div,a,header,footer,nav,section,figure,figcaption{
-
-
-margin:0;
-padding:0;
-
-}
-
-footer{
-
-background-color: #7f9276;
-opacity: 0.7;
-text-align: center;
-padding: 2em 0;
-color: ghostwhite;
-}
-
-
-main{
-
-
-	width: 80%;
-	margin: 2rem auto;
-}
-*/
 .background_photos{
 
 	background-image: url(../images/wallhaven-78409.jpg);
@@ -238,7 +156,7 @@ padding:0;
 
 }
 
-footer{
+footer {
 
 background-color: #7f9276;
 opacity: 0.7;
@@ -246,9 +164,11 @@ text-align: center;
 padding: 3em 0;
 color: ghostwhite;
 font-size: 16px;
-line-height: 20%;
+
 
 }
+
+
 
 main{
 
@@ -276,7 +196,7 @@ figure{
 
 	width: calc(100% / 4);
 	float: left;
-	margin: 2% auto;
+	margin: 5% auto;
 	
 	
 }
@@ -292,7 +212,7 @@ figure a{
 	display:flex;
 	align-items: center;
 	justify-content: center;
-   +
+   
 
 
 }
