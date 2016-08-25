@@ -5,12 +5,48 @@
 
    font-family: 'Dancing Script', cursive;
    font-size: 45px;
-   color: #F24362;
-   opacity:0.5;
+  
+
+  background: -webkit-linear-gradient(#a2245f, #ffc0cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  ;
 
 }
 
-#site_name:hover{color:white;}
+#site_name:hover{
+
+
+   background: -webkit-linear-gradient(#add8e6, #be2c2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+#site_name_photos{
+
+
+   font-family: 'Dancing Script', cursive;
+   font-size: 45px;
+  
+
+  background: -webkit-linear-gradient(#be2c2c, #ffc0cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  ;
+
+}
+
+#site_name_photos:hover{
+
+
+   background: -webkit-linear-gradient(#ffc0cb, #a52a2a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transpae;
+
+
+}
 
 
 
@@ -38,8 +74,6 @@
 
 	  width: 100%;
 	  height: 600px;
-     
-
 	  opacity:0.6;
 
 
@@ -62,7 +96,7 @@ p{
     position: absolute;
     left:0;
     right:0;
-    top:-110px;
+    top:-8rem;
     bottom: 0;
     margin:auto;
 	width:200px;
@@ -71,6 +105,11 @@ p{
 	background-color:white;
 	opacity: 0.5;
 	
+}
+
+.fix{
+
+	background-color:blue;
 }
 
 
@@ -144,11 +183,11 @@ opacity: 0.7;
 
 	background-image: url(../images/wallhaven-78409.jpg);
 	background-size: cover;
-	background-color:#f0a8c4;
+	background-color:#e4b7b7;
 	background-blend-mode: screen;
 }
 
-body,html,img,div,a,header,footer,nav,section,figure,figcaption{
+body,html,img,div,a,footer,nav,section,figure,figcaption{
 
 
 margin:0;
@@ -181,7 +220,7 @@ section{
 
 margin: 4% 4% auto;
 box-shadow: 0 0 10px 2px dimgrey;
-background-color:#e4b7b7;
+background-color:#d6958a;
 overflow: hidden;
 background-image:url(../images/wallhaven-78409.jpg);
 background-size: cover;
