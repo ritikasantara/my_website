@@ -4,15 +4,15 @@ $(document).ready(function(){
 
 
 
-var pos = $("#text_background");
+	var pos = $("#text_background");
 
-$(".navbar-collapse").on("click", function() {
-    
+	$(".navbar-collapse").on("click", function() {
+	    
 
-    pos.toggleClass("fix");
+	    pos.toggleClass("fix");
 
 
-  });
+	  });
 
 
 
